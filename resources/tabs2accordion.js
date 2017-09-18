@@ -1,4 +1,5 @@
 $(document).ready( function() {
+	$('.tabs.tabs-tabbox').show();
 
 	function showHideTab(tabpos, show) {
 		console.log("Click: "+tabpos, show);
@@ -8,7 +9,7 @@ $(document).ready( function() {
 			.toggleClass('open')
 			.slideToggle();
 	}
-	
+
 	var labels = [];
 	$('label.tabs-label').each(function(index) {
 		labels.push($(this).text());
