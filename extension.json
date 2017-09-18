@@ -1,0 +1,41 @@
+{
+	"name": "MobileTabsPlugin",
+	"version": "0.1.0",
+	"author": [
+		"Alexander Wunschik"
+	],
+	"url": "https://github.com/fuerthwiki/MobileTabsPlugin",
+	"descriptionmsg": "This a 'Plugin' for Mediawiki's Tabs Extension to show tabs as an accordion on mobile.",
+	"license-name": "AGPL-3.0",
+	"type": "other",
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\MobileTabsPlugin\\Hooks": "MobileTabsPlugin.hooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplayMobile": [
+			"MediaWiki\\Extension\\MobileTabsPlugin\\Hooks::onBeforePageDisplayMobile"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MobileTabsPlugin/resources"
+	},
+	"ResourceModules": {
+		"mobile.tabs2accordion": {
+			"targets": [
+				"mobile"
+			],
+			"position": "bottom",
+			"styles": [
+				"tabs2accordion.css"
+			],
+			"scripts": [
+				"tabs2accordion.js"
+			],
+			"dependencies": [
+				"jquery"
+			]
+		}
+	},
+	"manifest_version": 1
+}
