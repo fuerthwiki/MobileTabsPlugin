@@ -25,15 +25,12 @@
 			"targets": [
 				"mobile"
 			],
-			"position": "bottom",
+			"position": "top",
 			"styles": [
 				"tabs2accordion.css"
 			],
 			"scripts": [
 				"tabs2accordion.js"
-			],
-			"dependencies": [
-				"jquery"
 			]
 		}
 	},
