@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="../tabs2accordion.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet/less" type="text/css" href="../resources/tabs2accordion.less">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 <head>
 <body>
-	<h1>Arccordion</h1>
+	<h1>MobileTabsPlugin</h1>
+	This is a "Plugin" for the WikiMedia <a href="https://www.mediawiki.org/wiki/Extension:Tabs">Tabs extension</a>.<br>
+	Tabs get transformed to an accordion on mobile.
+
+	<h2>Example</h2>
 	<div class="Gebaeude">
 		<form id="tabs-inputform" class="tabs tabs-inputform" action="#"></form>
 		<div class="tabs tabs-tabbox">
 			<input type="radio" form="tabs-inputform" id="tabs-input-1-0" name="tabs-1" class="tabs-input tabs-input-0" checked="">
 			<input type="radio" form="tabs-inputform" id="tabs-input-1-1" name="tabs-1" class="tabs-input tabs-input-1">
-			<label class="tabs-label" for="tabs-input-1-1" data-tabpos="1">Bild</label>
+			<label class="tabs-label" for="tabs-input-1-1" data-tabpos="1">Tab 1</label>
 			<wbr>
 			<input type="radio" form="tabs-inputform" id="tabs-input-1-2" name="tabs-1" class="tabs-input tabs-input-2">
-			<label class="tabs-label" for="tabs-input-1-2" data-tabpos="2">Karte</label>
+			<label class="tabs-label" for="tabs-input-1-2" data-tabpos="2">Tab 2</label>
 			<wbr>
 			<input type="radio" form="tabs-inputform" id="tabs-input-1-3" name="tabs-1" class="tabs-input tabs-input-3">
-			<label class="tabs-label" for="tabs-input-1-3" data-tabpos="3">Daten</label>
+			<label class="tabs-label" for="tabs-input-1-3" data-tabpos="3">Tab 3</label>
 			<wbr>
 			<div class="tabs-container" style="">
 				<div class="tabs-content tabs-content-1">Inhalt 1</div>
@@ -26,5 +30,8 @@
 			<div>
 		</div>
 	</div>
-	<script src="../tabs2accordion.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../resources/tabs2accordion.js"></script>
+
+	<a href="https://github.com/fuerthwiki/MobileTabsPlugin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 </body>
