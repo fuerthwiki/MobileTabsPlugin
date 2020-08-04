@@ -2,7 +2,6 @@ $(document).ready( function() {
 	$('.tabs.tabs-tabbox').show();
 
 	function showHideTab(tabpos, show) {
-		console.log("Click: "+tabpos, show);
 		$('.tabs-header[data-tabpos="'+tabpos+'"]')
 			.toggleClass('active', show);
 		$('.tabs-content[data-tabpos="'+tabpos+'"]')
