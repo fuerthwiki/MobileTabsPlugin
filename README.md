@@ -12,3 +12,7 @@ This extension provides a simple jQuery-Plugin to show content as a accordion in
 ```php
 wfLoadExtension( 'MobileTabsPlugin' );
 ```
+
+## Demo
+
+![MobileTabsPlugin Animation](https://github.com/fuerthwiki/MobileTabsPlugin/blob/gh-pages/demo/MobileTabsPlugin.gif?raw=true)
