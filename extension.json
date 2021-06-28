@@ -5,7 +5,7 @@
 		"Alexander Wunschik"
 	],
 	"url": "https://github.com/fuerthwiki/MobileTabsPlugin",
-	"descriptionmsg": "This is a 'Plugin' for Mediawiki's Tabs Extension to show tabs as an accordion on mobile.",
+	"description": "This is a 'Plugin' for Mediawiki's Tabs Extension to show tabs as an accordion on mobile.",
 	"license-name": "AGPL-3.0",
 	"type": "other",
 	"AutoloadClasses": {
